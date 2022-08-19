@@ -14,9 +14,7 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
     - [Built with](#built-with)
     - [What I learned](#what-i-learned)
     - [Continued development](#continued-development)
-    - [Useful resources](#useful-resources)
   - [Author](#author)
-  - [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -31,11 +29,23 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+Waiting for selection
+![](./screenshots/desktop.png)
+
+Rating hover
+![](./screenshots/desktop-rating-hover.png)
+
+Selected rating
+![](./screenshots/desktop-rating-selected.png)
+
+Submit hover
+![](./screenshots/desktop-submit-hover.png)
 
 ### Links
 
+<!-- TODO: Add Link to solution -->
 <!-- - Solution URL: [Add solution URL here](https://your-solution-url.com) -->
+<!-- TODO: Add link to live site URL -->
 <!-- - Live Site URL: [Add live site URL here](https://your-live-site-url.com) -->
 
 ## My process
@@ -43,18 +53,18 @@ Users should be able to:
 ### Built with
 
 - Semantic HTML5 markup
-<!-- - Flexbox -->
-<!-- - CSS Grid -->
+- Flexbox
 - [Sass](https://sass-lang.com)
 
 ### What I learned
 
+I got an idea of how to work with JavaScript.
+
 ### Continued development
 
-### Useful resources
+Obviously, I don't know the best practices for working with JavaScript, so that's
+something I should look into.
 
 ## Author
 
 - Frontend Mentor - [@Lau-San](https://www.frontendmentor.io/profile/Lau-San)
-
-## Acknowledgments

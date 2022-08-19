@@ -1,1 +1,157 @@
-/*# sourceMappingURL=main.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap");
+/*
+-> Overpass
+	> 400
+	> 700
+*/
+:root {
+  font-size: 15px;
+}
+
+* {
+  box-sizing: border-box;
+  color: #fff;
+  font-family: Overpass, sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+}
+
+span {
+  color: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+button {
+  color: #000;
+  display: block;
+}
+
+img {
+  display: block;
+}
+
+body {
+  background: hsl(216deg, 12%, 8%);
+}
+
+.wrapper {
+  min-height: 100vh;
+  padding: 1.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-image: linear-gradient(175deg, hsl(213deg, 19%, 18%), hsla(213deg, 19%, 18%, 0.8) 90%);
+  border-radius: 1.5rem;
+  max-width: 400px;
+  padding: 1.9rem;
+}
+.card h1 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  margin-top: 1.8rem;
+}
+@media (max-width: 375px) {
+  .card h1 {
+    font-size: 1.55rem;
+  }
+}
+.card p {
+  color: hsl(217deg, 12%, 63%);
+  line-height: 1.5em;
+  margin-top: 0.8rem;
+}
+@media (max-width: 375px) {
+  .card p {
+    font-size: 0.95rem;
+  }
+}
+
+.star-icon {
+  background: hsla(216deg, 12%, 54%, 0.2);
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  border-radius: 50%;
+  padding: 12px;
+}
+.star-icon img {
+  width: 14px;
+}
+
+.rating {
+  margin-top: 1.8rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn {
+  padding-top: 0.3em;
+  border: none;
+  border-radius: 9999px;
+  font-weight: 700;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.5s ease, box-shadow 0.5s ease, color 0.5s ease, opacity 0.5s ease;
+}
+.btn:hover {
+  cursor: pointer;
+}
+.btn.rating-btn {
+  background-color: hsla(216deg, 12%, 54%, 0.2);
+  color: hsl(217deg, 12%, 63%);
+  width: 45px;
+  height: 45px;
+}
+.btn.rating-btn:hover {
+  background: hsl(217deg, 12%, 63%);
+  color: #fff;
+}
+.btn.rating-btn.selected {
+  background: hsl(25deg, 97%, 53%);
+  color: #fff;
+}
+.btn.submit-btn {
+  background: hsl(25deg, 97%, 53%);
+  height: 45px;
+  color: #fff;
+  width: 100%;
+  margin-top: 1.8rem;
+}
+.btn.submit-btn:hover {
+  background: #fff;
+  box-shadow: 0 0 10px hsl(25deg, 97%, 53%);
+  color: hsl(25deg, 97%, 53%);
+}
+.btn.submit-btn:disabled {
+  background-color: hsla(216deg, 12%, 54%, 0.2);
+  box-shadow: none;
+  color: hsl(217deg, 12%, 63%);
+  opacity: 0.3;
+  cursor: default;
+}
+
+#thank-you-state {
+  padding: 1rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+#thank-you-state .selected-msg {
+  background: hsla(216deg, 12%, 54%, 0.2);
+  border-radius: 9999px;
+  color: hsl(25deg, 97%, 53%);
+  font-size: 0.9rem;
+  padding: 0.2rem 1rem;
+  margin-top: 1.8rem;
+}/*# sourceMappingURL=main.css.map */
