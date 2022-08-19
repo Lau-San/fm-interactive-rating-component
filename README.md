@@ -46,7 +46,7 @@ Submit hover
 <!-- TODO: Add Link to solution -->
 <!-- - Solution URL: [Add solution URL here](https://your-solution-url.com) -->
 <!-- TODO: Add link to live site URL -->
-<!-- - Live Site URL: [Add live site URL here](https://your-live-site-url.com) -->
+- Live Site URL: [Github Pages](https://lau-san.github.io/fm-interactive-rating-component/)
 
 ## My process
 
